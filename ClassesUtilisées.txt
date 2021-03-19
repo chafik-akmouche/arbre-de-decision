@@ -1,0 +1,19 @@
+Les Class utilisées :
+
+1. Test
+Cette classe contient la méthode main() qui instancie la classe ArbreDeDecision.
+
+2. ArbreDeDecision
+Cette classe s'occupe de tout ce qui est chargement, lecture des données et affichage des résultats sur une interface graphique facile à utiliser.
+
+Au lancement du programme, c'est bien cette classe qui se lance en premier pour afficher une interface graphique à l'utilisateur pour lui permettre de charger le fichier des données «arff».
+
+Une fois le fichier est chargé, la classe récupère les données (nom de la relation, les valeurs des attributs, les noms des attributs ...), ensuite selon les paramètres de l'utilisateur (profondeur et taux d'impureté) cette classe fait appel à la classe «CalculArbre» pour effectuer les calculs nécessaires, à la réception des résultats de calcul, cette classe s'occupe de l'affichage des résultats à l'utilisateur sur une interface graphique sous forme d'une JTree (avec un affichage plus détaillé sur la sortie textuelle standard). 
+
+3. CalculArbre
+C'est une classe java qui prend en entrée Vector[] attributs2,Vector exemples, int attributs, String[] nomAttributs
+	
+La classe détermine les attributs gagnants selon les gains retournées par la classe GainAttribut, forme les fils (qui sont soit des noeuds ou des feuilles). À la fin, elle détermine la racine, les noeuds centrals et les feuilles, ensuite elle génére l'arbre et l'affichage (structuration) dans une «DefaultMutableTreeNode». 
+
+4. GainAttribut
+C'est une classe java, qui prend un vecteur de données, calcule l'entropie et retourne le gain à la classe «CalculArbre» suivant la formule mathématique de calcul de gain (formule mathématique pour calculer de gain)

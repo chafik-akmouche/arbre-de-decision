@@ -1,7 +1,7 @@
 # arbre-de-decision
 # Description
 
-Ce projet s'agit d'une implémentation de l'algorithme des arbres de décision vu en cours. 
+Ce projet s'agit d'une implémentation de l'algorithme des arbres de décision. 
 Construction d'un arbre de décision minimal, accompagné d'une interface graphique.
 
 
@@ -24,6 +24,3 @@ Construction d'un arbre de décision minimal, accompagné d'une interface graphi
 # Fonctionnement
 
 À partir de l'interface graphique, vous pouvez charger un fichier de données (bouton parcourir), avant qu'un fichier soit charger, les autres boutons sont désactivés. Une fois vous avez chargé un fichier de données «.arff», le chemin vers le fichier sélectionné est affiché dans le footer de l'interface graphique et les champs «profondeur» et «taux d'impureté» seront activés, cela vous donnera donc la possibilité de préciser une profondeur pour l'arbre de décision (un entier, par exemple 3) et un taux d'impureté (un entier par exemple 6 pour 6%). Ensuite il suffit de cliquer sur le bouton «générer l'arbre» pour visualiser le résulat sous forme d'un JTree java. Vous pouvez aussi consulter la sortie textuelle d'eclipse pour voir les détails (nom de la relation, nombre d'exemples, nombre d'attributs, noms des attributs et un affichage simplifié "sous forme d'un tableau" des données lu à partir du fichier arff.
-
-
-# Conception du programme

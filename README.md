@@ -1,7 +1,7 @@
 # Arbre de decision
 # Description
 
-Ce projet s'agit d'une implémentation des arbres de décision.\ 
+Ce projet s'agit d'une implémentation des arbres de décision.  
 Construction d'un arbre de décision minimal, accompagné d'une interface graphique.
 
 
